@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+![image](https://github.com/user-attachments/assets/367abcf9-b25b-4f4f-b48a-baa8e019f58b)# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Some SCREENSHOTS of this project are :-
+
+![Screenshot (265)](https://github.com/user-attachments/assets/7db2d87b-148b-4e58-b7e5-689e1d21f241)
+
+![Screenshot (266)](https://github.com/user-attachments/assets/c0e336a1-be97-4e61-9bdc-95faf8ca192d)
+
+Also, you can CHECK this project LIVE on :-
+https://crownclothing-thestore.vercel.app/
+
