@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Brown Brim",
+    "category": "Cap",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    "price": 250
+  },
+  {
+    "id": 2,
+    "name": "Blue Beanie",
+    "category": "Cap",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+    "price": 180
+  },
+  {
+    "id": 3,
+    "name": "Brown Cowboy",
+    "category": "Cap",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
+    "price": 350
+  },
+  {
+    "id": 4,
+    "name": "Grey Brim",
+    "category": "Cap",
+    "gender": "men",
+    "imageUrl": "https://i.ibb.co/RjBLWxB/grey-brim.png",
+    "price": 250
+  },
+  {
+    "id": 5,
+    "name": "Green Beanie",
+    "category": "Cap",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/YTjW3vF/green-beanie.png",
+    "price": 180
+  },
+  {
+    "id": 6,
+    "name": "Palm Tree Cap",
+    "category": "Cap",
+    "gender": "men",
+    "imageUrl": "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+    "price": 140
+  },
+  {
+    "id": 7,
+    "name": "Red Beanie",
+    "category": "Cap",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/bLB646Z/red-beanie.png",
+    "price": 180
+  },
+  {
+    "id": 8,
+    "name": "Wolf Cap",
+    "category": "Cap",
+    "gender": "men",
+    "imageUrl": "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+    "price": 140
+  },
+  {
+    "id": 9,
+    "name": "Blue Snapback",
+    "category": "Cap",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+    "price": 160
+  },
+  {
+    "id": 10,
+    "name": "Brown Jacket",
+    "category": "Jacket",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/j33JC9p/brown-jacket.jpg",
+    "price": 250
+  },
+  {
+    "id": 11,
+    "name": "Bomber Jacket",
+    "category": "Jacket",
+    "gender": "men",
+    "imageUrl": "https://i.ibb.co/LggZp23/bomber-jacket.jpg",
+    "price": 180
+  },
+  {
+    "id": 12,
+    "name": "Suede Jacket",
+    "category": "Jacket",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/RbBvqYf/suede-jacket.jpg",
+    "price": 350
+  },
+  {
+    "id": 13,
+    "name": "Denim Jacket",
+    "category": "Jacket",
+    "gender": "men",
+    "imageUrl": "https://i.ibb.co/kgh8jK4/denim-jacket.jpg",
+    "price": 250
+  },
+  {
+    "id": 14,
+    "name": "Camouflage Jacket",
+    "category": "Jacket",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/HTmPt4S/camouflage-jacket.jpg",
+    "price": 180
+  },
+  {
+    "id": 15,
+    "name": "Black Sneakers",
+    "category": "Sneaker",
+    "gender": "men",
+    "imageUrl": "https://i.ibb.co/t49CvcF/black-sneakers.jpg",
+    "price": 140
+  },
+  {
+    "id": 16,
+    "name": "Grey Sneakers",
+    "category": "Sneaker",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/mBBmsJc/grey-sneakers.jpg",
+    "price": 180
+  },
+  {
+    "id": 17,
+    "name": "AllStar Sneakers",
+    "category": "Sneaker",
+    "gender": "women",
+    "imageUrl": "https://i.ibb.co/7SDWMNV/Converse-All-Star-sneakers.jpg",
+    "price": 140
+  },
+  {
+    "id": 18,
+    "name": "White-Cream Sneakers",
+    "category": "Sneaker",
+    "gender": "",
+    "imageUrl": "https://i.ibb.co/9Nt6fby/white-cream-sneakers.jpg",
+    "price": 160
+  },
+  {
+    "id": 19,
+    "name": "Colorful Sneakers",
+    "category": "Sneaker",
+    "gender": "",
+    "imageUrl": "https://i.ibb.co/Jjm0Ldg/colorful-sneakers.jpg",
+    "price": 250
+  }
+]
