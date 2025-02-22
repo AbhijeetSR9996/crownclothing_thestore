@@ -29,23 +29,51 @@ const Checkout = () => {
 
   return (
     <div className="checkout-container">
+      {/* for BUY NOW/LATER Button */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          backgroundColor: "transparent",
+          marginLeft: "-1050px",
+          //marginRight: "110px",
+          rotate: "270deg",
+          //top: "220px",
+          marginTop: "80px",
+          marginBottom: "-100px",
+          //padding: "-100px",
+        }}
+      >
+        <Button
+          style={{
+            fontSize: "95px",
+            cursor: "default",
+            pointerEvents: "none",
+          }}
+          buttonType={""}
+          disabled
+        >
+          BUY LATER
+        </Button>
+      </div>
+      {/* ---------X-----------*/}
       {cartTotal ? (
         <>
           <div className="checkout-header">
             <div className="header-block">
-              <span>Product</span>
+              <span>PRODUCT</span>
             </div>
             <div className="header-block">
-              <span>Description</span>
+              <span>DESCRIPTION</span>
             </div>
             <div className="header-block">
-              <span>Quantity</span>
+              <span>QUANTITY</span>
             </div>
             <div className="header-block">
-              <span>Price per item</span>
+              <span>ITEM PRICE</span>
             </div>
             <div className="header-block">
-              <span>Remove</span>
+              <span>REMOVE</span>
             </div>
           </div>
           {cartItems.map((cartItem) => (
@@ -53,8 +81,13 @@ const Checkout = () => {
           ))}
           <div className="total">
             TOTAL AMOUNT: &#x20B9;{cartTotal}
-            <Button onClick={() => setIsOpenNow(true)}>BUY NOW</Button>
             <div>&nbsp;</div>
+            {/* BUY NOW & BUY LATER */}
+            <div className="total" style={{ marginLeft: "200px" }}>
+              <Button type="submit" onClick={() => setIsOpenNow(true)}>
+                BUY NOW
+              </Button>
+            </div>
             {isOpenNow && (
               <div
                 style={{
@@ -70,15 +103,21 @@ const Checkout = () => {
               >
                 <h4>Payment Successful..!!</h4>
                 <center>
-                  <button onClick={handleCloseAndClearCart}>
-                    TAKE ME TO HOMEPAGE
-                  </button>
+                  <Button onClick={handleCloseAndClearCart}>
+                    GO TO HOMEPAGE
+                  </Button>
                 </center>
               </div>
             )}
-            <Button buttonType="inverted" onClick={() => setIsOpenLater(true)}>
-              BUY LATER
-            </Button>
+            <div className="total" style={{ marginTop: "-50px" }}>
+              <Button
+                buttonType="inverted"
+                type="button"
+                onClick={() => setIsOpenLater(true)}
+              >
+                BUY LATER
+              </Button>
+            </div>
             {isOpenLater && (
               <div
                 style={{
@@ -94,9 +133,9 @@ const Checkout = () => {
               >
                 <h4>Items are moved to Saved Items List.</h4>
                 <center>
-                  <button onClick={handleCloseAndClearCart}>
-                    TAKE ME TO HOMEPAGE
-                  </button>
+                  <Button onClick={handleCloseAndClearCart}>
+                    GO TO HOMEPAGE
+                  </Button>
                 </center>
               </div>
             )}
@@ -108,6 +147,34 @@ const Checkout = () => {
           <Button onClick={goToShop}>YOUR CART IS EMPTY!! SHOP NOW</Button>
         </div>
       )}
+      {/* for BUY NOW/LATER Button */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          backgroundColor: "transparent",
+          marginRight: "-1100px",
+          //marginRight: "110px",
+          rotate: "90deg",
+          //top: "220px",
+          marginTop: "-100px",
+          marginBottom: "-30px",
+          //padding: "-100px",
+        }}
+      >
+        <Button
+          style={{
+            fontSize: "95px",
+            cursor: "default",
+            pointerEvents: "none",
+          }}
+          buttonType={""}
+          disabled
+        >
+          BUY NOW
+        </Button>
+      </div>
+      {/* ---------X-----------*/}
     </div>
   );
 };
