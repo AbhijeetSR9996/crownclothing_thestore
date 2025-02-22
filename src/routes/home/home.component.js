@@ -40,6 +40,7 @@ const Home = () => {
   return (
     <>
       <div>
+        {/* for CATEGORIES Button */}
         <div
           style={{
             display: "flex",
@@ -48,10 +49,19 @@ const Home = () => {
             marginBottom: "12px",
           }}
         >
-          <Button style={{ fontSize: "100px" }} buttonType={""} onClick={{}}>
+          <Button
+            style={{
+              fontSize: "100px",
+              cursor: "default",
+              pointerEvents: "none",
+            }}
+            buttonType={""}
+            disabled
+          >
             CATEGORIES
           </Button>
         </div>
+        {/* ---------X-----------*/}
         <Directory categories={categories} />
         <Outlet />
         <div
