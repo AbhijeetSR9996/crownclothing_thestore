@@ -1,11 +1,11 @@
 import "./category-item.styles.scss";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const CategoryItem = ({ category }) => {
   const { imageUrl, title } = category;
 
   return (
-    <div className="category-container">
+    <div className="category-container" style={{ pointerEvents: "none" }}>
       <div
         className="background-image"
         style={{
@@ -13,12 +13,9 @@ const CategoryItem = ({ category }) => {
         }}
       />
       <div className="category-body-container">
-        <Link className="nav-link" to="/shop">
-          <h2>{title}</h2>
-        </Link>
-        {/* <Link className="nav-link" to="/shop">
-          Shop Now
-        </Link> */}
+        {/* <Link className="nav-link" to="/shop"> */}
+        <h2>{title}</h2>
+        {/* </Link> */}
       </div>
     </div>
   );
